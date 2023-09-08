@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sign up for Little Lemon</title>
+
+    <meta property="og:title" content="Our Menu">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="../assets/image/logo.png">
+    <meta property="og:url" content="https://littlelemon">
+    <meta property="og:description" content="Little Lemon is a family-owned Mediterranean restaurant, focused on traditional recipes served with a modern twist.">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:site_name" content="Little Lemon">
+    
+    <link href="../assets/css/bootstrap.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <img src="../assets/image/logo.png" alt="logo littlelemon">
+    </header>
+    <nav>
+        <a href="home.html">Home</a>
+        <a href="location.html">Location</a>
+        <a href="blog.html">Blog</a>
+    </nav>
+    <main>
+        <h1>Book A Table</h1>
+        <form method="POST">
+            <fieldset id="size">
+                <label>
+                    <input type="radio" value="2" name="size"> 2-person table
+                </label>
+                <label>
+                    <input type="radio" value="4" name="size"> 4-person table
+                </label>
+                <label>
+                    <input type="radio" value="6" name="size"> 6-person table
+                </label>
+            </fieldset>
+            <div>
+                <label for="booking_date">Booking Date</label>
+                <input type="date" id="booking_date" name="booking_date">
+            </div>
+            <fieldset id="location">
+                <label>
+                    <input type="radio" value="" name="location" checked> Indoors
+                </label>
+                <label>
+                    <input type="radio" value="" name="location"> Outdoors
+                </label>
+            </fieldset>
+            <button type="submit">Book Table</button>
+        </form>
+    </main>
+    <footer>
+        <p>Copyrigh Little Lemon.</p>
+    </footer>
+
+    <script src="../assets/js/bootstrap.bundle.js"></script>
+</body>
+</html> 

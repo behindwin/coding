@@ -1,0 +1,43 @@
+.container{
+    display: flex;
+    justify-content: flex-start;
+}
+.column-20{
+    width: 20%;
+    text-align: center;
+}
+.column-80{
+    width:80%;
+    border-left: 1px solid black;
+
+    border-bottom: 1px solid black;
+}
+.label{
+    flex: 0 0 auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.row{
+    display: flex;
+    justify-content: flex-start;
+    height: 50px;
+    width: 100%;
+    margin-bottom: 5px;
+}
+.row .dish{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:1px solid white;
+}
+.pasta{
+    background-color: #ee9972;
+}
+.pizza{
+    background-color: #f4ce14;
+}
+.burito{
+    background-color: #495e57;
+}
+.noodle{
+    background-color: skyblue;
+}

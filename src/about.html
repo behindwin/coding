@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sign up for Little Lemon</title>
+
+    <meta property="og:title" content="Our Menu">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="../assets/image/logo.png">
+    <meta property="og:url" content="https://littlelemon">
+    <meta property="og:description" content="Little Lemon is a family-owned Mediterranean restaurant, focused on traditional recipes served with a modern twist.">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:site_name" content="Little Lemon">
+    
+    <link href="../assets/css/bootstrap.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <img src="../assets/image/logo.png" alt="logo littlelemon">
+    </header>
+    <nav>
+        <a href="home.html">Home</a>
+        <a href="location.html">Location</a>
+        <a href="blog.html">Blog</a>
+        <a href="about.html">About</a>
+    </nav>
+    <main>
+        <h1>About</h1>
+        <audio loop controls>
+            <source src="filename.ogg" type="audio/ogg">
+        </audio>
+        <p>Little Lemon is a family-owned Mediterranean restaurant, focused on traditional recipes served with a modern twist.</p>
+
+        <video controls muted width="320" height="240">
+            <source src="video.mp4" type="video/mp4">
+        </video>
+        
+        <form>
+            <div>
+              <label for="rating">Rating</label>
+              <input type="range" min="1" max="5" id="rating" name="rating" list="ratings">
+              <datalist id="ratings">
+                  <option value="1" label="1"></option>
+                  <option value="2"></option>
+                  <option value="3"></option>
+                  <option value="4"></option>
+                  <option value="5" label="5"></option>
+              </datalist>
+            </div>
+            <button type="submit">Submit Rating</button>
+        </form>
+
+        <figure> 
+            <img src="photo.png" width="320" alt="Loading Profile Photo..."> 
+            <figcaption>A photo of myself on a beach in 2015</figcaption>
+         </figure>
+    </main>
+    <footer>
+        <p>Copyrigh Little Lemon.</p>
+    </footer>
+
+    <script src="../assets/js/bootstrap.bundle.js"></script>
+</body>
+</html> 

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .bar-chart {
+            width: 100%; /* width: 600px; to make a small box*/
+            height: 300px;
+            border-left: 1px solid grey;
+            border-bottom: 1px solid grey;
+            margin: 20px;
+        }
+
+        .bar {
+            background-color: #3498db;
+            height: 30px;
+            margin-bottom: 10px;
+            transition: width 0.5s;
+        }
+
+        .bar-label {
+            text-align: center;
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="bar-chart">
+        <div class="bar bar-label" style="width: 70%;">70%</div>
+        <div class="bar bar-label" style="width: 40%;">40%</div>
+        <div class="bar bar-label" style="width: 85%;">85%</div>
+        <div class="bar bar-label" style="width: 20%;">20%</div>
+        <div class="bar bar-label" style="width: 35%;">350%</div>
+        <div class="bar bar-label" style="width: 60%;">60%</div>
+    </div>
+</body>
+</html>

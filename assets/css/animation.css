@@ -14,6 +14,14 @@
         transform: rotate(360deg);
     }
 }
+@keyframes spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
 
 #ball{
     width: 80px;
@@ -28,8 +36,18 @@
 #ball2{
     width: 50px;
     height: 50px;
-    border-radius: 50%;
     background-color: #62687f;
-
     animation: cycle 6s infinite linear;
 }
+
+.spin {
+    /* height: 20vmin; */
+    width: 100px;
+    height: 100px;
+    pointer-events: none;
+  }
+  @media (prefers-reduced-motion: no-preference) {
+    .spin {
+      animation: spin infinite 10s linear;
+    }
+  }
